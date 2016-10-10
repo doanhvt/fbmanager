@@ -1,0 +1,1 @@
+<script src="<?php echo $this->path_theme_file; ?>js/contact/contact.js"></script>

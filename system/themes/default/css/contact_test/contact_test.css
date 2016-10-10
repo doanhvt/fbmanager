@@ -1,0 +1,16 @@
+/* 
+    Document   : contact_test.css
+    Created on : Jun 25, 2014, 10:40:39 PM
+    Author     : Duc Anh
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+.modal_content input, .modal_content textarea, .modal_content .uneditable-input {
+    min-width: 0;
+    width: 100%;
+}

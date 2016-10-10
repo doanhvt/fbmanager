@@ -1,0 +1,8 @@
+/nbproject/
+/.idea
+/application/logs/log-*
+/application/config/api_config.php
+/application/config/database.php
+/system/core/Common.php
+/uploads/*
+/cookie.txt

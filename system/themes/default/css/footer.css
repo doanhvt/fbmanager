@@ -1,0 +1,27 @@
+/* 
+    Document   : footer
+    Created on : Jul 16, 2014, 9:46:42 AM
+    Author     : Cao Van Phu
+    Description:
+        Purpose of the stylesheet follows.
+*/
+.float-ck2 {
+    position: fixed;
+    bottom: 0px;
+    z-index: 10000;
+    right: 0px;
+}
+#i_hide, #i_activate{
+    cursor: pointer;
+    background: #810c15;
+    color: #fff;
+    width: 252px;
+    text-align: center;
+    padding: 2px 0px;
+}
+th.e_appointment , td.e_appointment {
+    border: 1px solid #c9c9c9;
+    padding: 5px;
+    width: 126px;
+    background-color: #fff;
+}

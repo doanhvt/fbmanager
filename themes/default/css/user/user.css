@@ -1,0 +1,45 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 22, 2014, 5:03:28 PM
+    Author     : Duc Anh
+*/
+
+
+
+.e_show_chart{
+    float: right;
+}
+
+.mark_list table{
+    width: 100%;
+}
+
+.mark_list table td{
+    padding: 5px;
+}
+
+/*.mark_form table{
+    width: 100%;
+}
+
+.mark_form td{
+    padding: 5px 1px;
+}
+
+.mark_form td input{
+    width: 90%; 
+}*/
+
+td.user_info{
+    width: 250px;
+    padding: 10px 0;
+}
+
+.chart-casec, .chart-interview{
+    //display: none;
+}
+

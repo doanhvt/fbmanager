@@ -1,0 +1,52 @@
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^www\.(.*)$
+RewriteRule ^(.*)$ http://%1/$1 [R=301,L]
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(.*)$ index.php/$1 [L,QSA]
+
+<Ifmodule mod_php4.c>
+	php_value error_log "/home/handymoon.com/__processed_stats/handymoon.com.phplog"
+	php_value upload_max_filesize 2M
+	php_value max_execution_time  30
+	php_value max_input_time  60
+	php_value memory_limit  32M
+	php_value post_max_size  8M
+	php_flag register_globals  off
+	php_flag display_errors  on
+	php_flag file_uploads  on
+	php_flag log_errors  on
+	php_flag output_buffering  off
+	php_flag register_argc_argv  on
+	php_flag magic_quotes_gpc   off
+	php_flag magic_quotes_runtime  off
+	php_flag magic_quotes_sybase  off
+	php_flag mysql.allow_persistent  off
+	php_flag register_long_arrays  on
+	php_flag allow_url_fopen  on
+	php_flag cgi.force_redirect  on
+	php_flag enable_dl  on
+</Ifmodule>
+
+<Ifmodule mod_php5.c>
+	php_value error_log "/home/handymoon.com/__processed_stats/handymoon.com.phplog"
+	php_value upload_max_filesize 2M
+	php_value max_execution_time  30
+	php_value max_input_time  60
+	php_value memory_limit  32M
+	php_value post_max_size  8M
+	php_flag register_globals  off
+	php_flag display_errors  on
+	php_flag file_uploads  on
+	php_flag log_errors  on
+	php_flag output_buffering  off
+	php_flag register_argc_argv  on
+	php_flag magic_quotes_gpc   off
+	php_flag magic_quotes_runtime  off
+	php_flag magic_quotes_sybase  off
+	php_flag mysql.allow_persistent  off
+	php_flag register_long_arrays  on
+	php_flag allow_url_fopen  on
+	php_flag cgi.force_redirect  on
+	php_flag enable_dl  on
+</Ifmodule>

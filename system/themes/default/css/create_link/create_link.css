@@ -1,0 +1,22 @@
+/* 
+    Document   : create_link
+    Created on : Jul 28, 2014, 3:43:15 PM
+    Author     : Cao Van Phu
+    Description:
+        Purpose of the stylesheet follows.
+*/
+div.e_week{
+    margin-top: -56px;
+    margin-left: 350px;
+}
+input#create_link{
+    margin-top: -55px;
+    margin-left: 700px;
+}
+p.link{
+    text-align: center;
+    font-size: 14px;
+}
+div.select2-container{
+    width: 300px;
+}

@@ -1,0 +1,15 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Aug 27, 2014, 10:15:30 AM
+    Author     : Luong Minh Thieu
+*/
+form .control-group .controls-row .uploader{
+   width: 100%;
+}
+form .control-group .controls-row .uploader span{
+    display: block !important;
+}

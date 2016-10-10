@@ -1,0 +1,25 @@
+/* 
+    Document   : calling
+    Created on : 22-04-2014, 16:01:04
+    Author     : Tran Ba Tung
+    Description:
+        Purpose of the stylesheet follows.
+*/
+.btn_calling{
+	float: left;
+	margin-top: 3px;
+	margin-left: 5px;
+}
+
+#i_btn_endcall{
+    display: none;
+}
+
+div.select_phone{
+    width: 500px;
+    float: left;
+}
+
+.select_phone div.select2-container{
+    width: 60% !important;
+}

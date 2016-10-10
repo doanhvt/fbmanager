@@ -1,0 +1,161 @@
+.table_data .teacher{
+    display: inline-block;
+    background: #d9d9d9;
+    padding: 5px 10px;
+    margin-left: 10px;
+    position: relative;
+}
+.table_data .teacher .icon_del{
+    position: absolute;
+    top: -3px;
+    border-radius: 15px;
+    background: #d9d9d9;
+    color: #333;
+    line-height: 9px;
+    right: -3px;
+    padding: 2px;
+    display: none;
+    cursor: pointer;
+    border: 1px solid #ccc;
+}
+.table_data .field_info,.table_data .info_teacherBackup,.table_data .info_assistant {
+    position: relative;
+}
+.table_data .field_info .icon_teacher,.table_data .info_teacherBackup .icon_teacher,.table_data .info_assistant .icon_teacher{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.table_data .field_info .teacher{
+    background: green;
+    color: #fff;
+}
+.table_data .info_assistant .teacher{
+    background: blue;
+    color: #fff;
+}
+.table_data .field_info .teacher:hover .icon_del{
+    display: block;
+}
+.table_data .info_teacherBackup .teacher:hover .icon_del{
+    display: block;
+}
+.table_data .hour{
+    width: 70px;
+}
+.table_data .weekday{
+    cursor: pointer;
+}
+.table_data .title_info .info_class
+,.table_data .title_info .hour
+,.table_data .title_info .info_assistant
+,.table_data .title_info .info_employee 
+,.table_data .title_info .info_teacherBackup
+,.table_data .title_info .info_teacher
+,.table_data .title_info .list_assistant
+,.table_data .title_info .list_teacher{
+    background: #d9d9d9;
+    text-align: center;font-weight: bold;
+    border-left: 1px solid #cccccc;
+}
+.table_data .info_class{
+    border-left: 1px solid #ccc;
+    width: 120px;
+}
+.table_data .info_assistant{
+    border-left: 1px solid #ccc;
+    width: 150px;
+}
+.table_data .info_employee{
+    border-left: 1px solid #ccc;
+    width: 150px;
+}
+.table_data .info_teacher{
+    border-left: 1px solid #ccc;
+    width: 150px;
+}
+.table_data .info_teacherBackup{
+    border-left: 1px solid #ccc;
+    width: 150px;
+}
+.table_data .info_teacherBackup .teacher{
+    margin-bottom: 10px;
+}
+.table_data .list_teacher .teacher{
+    margin-bottom: 10px;
+}
+.table_data .title_weekday .weekday{
+    background-color: #810c15;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.table_data .info_teacher .info_field{
+    font-size: 12px;
+}
+.fixed_wrap{
+    position: fixed;
+    bottom: 150px;
+    z-index: 10000;
+    right: 2px;
+    background: #fff;
+    border: 1px solid #ccc;
+    /*box-shadow: -2px 2px 1px 0px #d9d9d9;*/ 
+    cursor: pointer;
+}
+.calendar_wrap{
+}
+.row_field span{
+    display: inline-block;
+    border-bottom: 1px solid #810c15;
+}
+.field_teacher{
+    padding: 2px 0px;
+    width: 131px;
+    padding-left: 5px;
+}
+.field_h1{
+    padding: 2px 0px;
+    text-align: center;
+    width: 30px;
+
+}
+.field_h2{
+    padding: 2px 0px;
+    text-align: center;      
+    width: 30px;
+}
+.title_support{
+    text-align: center;
+    background: #810c15;
+    color: #fff;
+}
+.row_field_3{
+    background: #fff;   
+}
+.row_field_2{
+    background: green;
+    color: #fff;
+
+}
+.row_field_1{
+    background: red;
+    color: #fff;
+}
+.info_support{
+    width: 195px;
+}
+.action_fixed{
+    cursor: pointer;
+    position: absolute;
+    right: -70px;
+    text-align: center;
+    color: #fff;
+    display: none;
+    width: 160px;
+    height: 20px;
+    background: #810c15;
+    transform:rotate(-90deg);
+    -ms-transform:rotate(-90deg); /* IE 9 */
+    -webkit-transform:rotate(-90deg); /* Opera, Chrome, and Safari */
+}

@@ -1,0 +1,82 @@
+.table_data .teacher{
+    display: inline-block;
+    background: #d9d9d9;
+    padding: 5px 10px;
+    margin-left: 5px;
+    position: relative;
+}
+.table_data .teacher .icon_del{
+    position: absolute;
+    top: -3px;
+    border-radius: 15px;
+    background: #d9d9d9;
+    color: #333;
+    line-height: 9px;
+    right: -3px;
+    padding: 2px;
+    display: none;
+    cursor: pointer;
+    border: 1px solid #ccc;
+}
+.table_data .field_info .teacher{
+    background: green;
+    color: #fff;
+}
+.table_data .field_info .teacher:hover .icon_del{
+    display: block;
+}
+.table_data .info_teacherBackup .teacher:hover .icon_del{
+    display: block;
+}
+.table_data .hour{
+    width: 70px;
+}
+.table_data .weekday{
+    cursor: pointer;
+}
+.table_data .title_info .info_class
+,.table_data .title_info .hour
+,.table_data .title_info .info_assistant
+,.table_data .title_info .info_employee 
+,.table_data .title_info .info_teacherBackup
+,.table_data .title_info .info_teacher
+,.table_data .title_info .list_teacher{
+    background: #d9d9d9;
+    text-align: center;font-weight: bold;
+    border-left: 1px solid #cccccc;
+}
+.table_data .info_class{
+    border-left: 1px solid #ccc;
+    width: 120px;
+}
+.table_data .info_assistant{
+    border-left: 1px solid #ccc;
+    width: 120px;
+}
+.table_data .info_employee{
+    border-left: 1px solid #ccc;
+    width: 150px;
+}
+.table_data .info_teacher{
+    border-left: 1px solid #ccc;
+    width: 120px;
+}
+.table_data .info_teacherBackup{
+    border-left: 1px solid #ccc;
+    width: 120px;
+}
+.table_data .info_teacherBackup .teacher{
+    margin-bottom: 10px;
+}
+.table_data .list_teacher .teacher{
+    margin-bottom: 10px;
+}
+.table_data .title_weekday .weekday{
+    background-color: #810c15;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.table_data .info_teacher .info_field{
+    font-size: 12px;
+}
